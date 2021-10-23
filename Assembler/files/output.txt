@@ -1,0 +1,7 @@
+a text 0 loc 0 0
+b text 5 glob 1 0
+c text 5 loc 2 0
+
+text 0 local direct 2 text 0
+
+text 0 55 | 241 | 3 | 0 | 

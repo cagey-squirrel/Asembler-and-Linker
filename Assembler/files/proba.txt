@@ -1,0 +1,16 @@
+.section text 
+
+.global a
+
+a: add r1, r2
+b: sub r1, r2 # ovo je komentar
+c: .equ d, 0x16
+call a
+call b
+call %a
+
+.section data
+.word a, 12
+.skip 4
+
+.end
